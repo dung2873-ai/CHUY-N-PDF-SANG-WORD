@@ -1,0 +1,6 @@
+{
+  "name": "PDF to Word Converter & Math Studio",
+  "description": "Chuyển đổi PDF sang Word chuẩn xác cao, giữ nguyên định dạng, OCR tài liệu quét đa ngôn ngữ, công thức LaTeX, hình vẽ hình học sắc nét, giải chi tiết bài tập toán kèm lời bình sư phạm và hỗ trợ làm việc ngoại tuyến.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

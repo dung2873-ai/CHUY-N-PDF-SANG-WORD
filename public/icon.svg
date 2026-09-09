@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1d4ed8" />
+      <stop offset="50%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#60a5fa" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#0f172a" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <!-- Background with subtle curve -->
+  <rect width="512" height="512" rx="128" fill="url(#primaryGrad)" />
+  
+  <!-- Document Folded Paper Back (PDF style) -->
+  <g filter="url(#shadow)">
+    <path d="M120 110 C120 95, 132 84, 148 84 L300 84 L380 164 L380 400 C380 416, 368 428, 352 428 L148 428 C132 428, 120 416, 120 400 Z" fill="#ffffff" />
+    <path d="M300 84 L300 152 C300 160, 306 164, 314 164 L380 164 Z" fill="#e2e8f0" />
+  </g>
+
+  <!-- Word & Math Badges -->
+  <rect x="90" y="160" width="130" height="96" rx="16" fill="#1e40af" filter="url(#shadow)" />
+  <text x="155" y="226" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="58" font-weight="900" text-anchor="middle">W</text>
+  
+  <!-- Math Sigma & Integral LaTeX emblem -->
+  <g transform="translate(190, 220)">
+    <!-- Right triangle geometric indicator -->
+    <polygon points="40,140 140,140 140,40" fill="none" stroke="#2563eb" stroke-width="6" stroke-linejoin="round" />
+    <circle cx="140" cy="140" r="12" fill="#38bdf8" opacity="0.8" />
+    <path d="M 126 140 A 14 14 0 0 0 140 126" stroke="#2563eb" stroke-width="4" fill="none" />
+    
+    <!-- LaTeX Sigma Symbol -->
+    <text x="5" y="45" fill="#1e293b" font-family="Georgia, serif" font-size="52" font-weight="bold">∑</text>
+    <text x="50" y="15" fill="#0284c7" font-family="system-ui, sans-serif" font-size="20" font-weight="bold">x²</text>
+  </g>
+
+  <!-- Flow Arrow indicating PDF -> DOCX Conversion -->
+  <circle cx="360" cy="360" r="54" fill="#0284c7" filter="url(#shadow)" />
+  <path d="M344 340 L370 360 L344 380" fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M370 360 L326 360" fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round" />
+</svg>
